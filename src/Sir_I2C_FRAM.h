@@ -1,12 +1,7 @@
 #ifndef _SIR_I2C_FRAM_H_
 #define _SIR_I2C_FRAM_H_
 
-#if ARDUINO >= 100
- #include <Arduino.h>
-#else
- #include <WProgram.h>
-#endif
-
+#include <Arduino.h>
 #include <Wire.h>
 
 #define DEFAULT_ADDRESS     0x50
